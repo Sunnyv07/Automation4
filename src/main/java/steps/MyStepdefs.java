@@ -31,7 +31,7 @@ public class MyStepdefs {
     public void openWebPage()
     {
         System.out.println("Open Web Page"); //Console message
-        driver.get(p.getProperty("url")); //Opening Webpage
+        driver.get(p.getProperty("staging_url")); //Opening Webpage
 
         //Checking whether webpage opened successfully or not
         WebElement Expected_Input= driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/input[1]"));

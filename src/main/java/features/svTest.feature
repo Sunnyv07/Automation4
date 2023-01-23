@@ -5,6 +5,7 @@ Feature: SV Tests
     Given Opening Web Page
     Then Enter username and password
 
+
   Scenario: Rest
     Then Click Submit
     Then Enter OTP
