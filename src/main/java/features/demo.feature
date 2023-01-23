@@ -20,3 +20,5 @@ Feature: Test
     Then Click Login
     Then Print Message
     Then Close Browser
+
+  @Test4
